@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assignment Student Registration Form</title>
+  </head>
+  
+
+  <body>
+    <h2>Student Registration Form </h2>
+    <form>
+      <table>
+        <tbody>
+          <tr>
+            <td><label for="full name">Full Name: </label></td>
+            <td>
+              <input type="text" id="full name" autofocus required maxlength="40"> 
+               </td>
+          </tr>
+          <tr> 
+            <td><label>Email Address:</label></td>
+            <td><input type="email" required placeholder="abc@gmail.com" /></td>
+          </tr>
+          <tr>
+            <td><label>Password:</label></td>
+            <td><input type="password" required /></td>
+          </tr>
+          <tr>
+            <td><label>Contact Number:</label></td>
+            <td><input type="number" /></td>
+          </tr>
+          <tr>
+            <td><label>Profile Photo:</label></td>
+            <td><input type="file" /></td>
+          </tr>
+          <tr>
+            <td><label>Date of Birth:</label></td>
+            <td><input type="date" required /></td>
+          </tr>
+          <tr>
+            <td><label> Gender: </label></td>
+            <td>
+              <input type="radio" name="gender" /> <label> Male </label>
+              <input type="radio" name="gender" /> <label> Female</label>
+              <input type="radio" name="gender" /> <label> Transgender </label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label> Marital Status:</label></td>
+            <td> <input type="radio" name="no" /> <label> yes </label>
+              <input type="radio" name="no" /> <label> No</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label>Known Tools & Technology:</label></td>
+            <td>
+              <input type="checkbox" /><label>Angular</label>
+              <input type="checkbox" /><label>React</label>
+              <input type="checkbox" /><label>Python</label>
+              <input type="checkbox" /><label>Java</label>
+              <input type="checkbox" /><label>Jekin</label>
+              <input type="checkbox" /><label>GIT</label>
+              <input type="checkbox" /><label>Database</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label> Designation </label>
+            </td>
+            <td>
+              <select>
+                <option>UI Developer</option>
+                <option>Backend Developer</option>
+                <option>Full Stack</option>
+                <option>DevOps Engineer</option>
+                <option>Tester</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td><label> Country:</label></td>
+            <td><input type="text" value="India" readonly /></td>
+          </tr>
+
+          <tr>
+            <td><label>Present Address:</label></td>
+            <td><textarea rows="7" cols="35"></textarea></td>
+          </tr>
+
+          <tr>
+            <td><button type="submit">Submit</button></td>
+            <td><button type="reset">Reset</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>
